@@ -1,0 +1,79 @@
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 5em 0;
+}
+
+.content {
+    display: flex;
+    flex: 1 0 25.5em;
+    flex-direction: column;
+    margin-right: 7em;
+}
+
+.text {
+    margin-bottom: 1em;
+    line-height: 1.25rem;
+    color: var(--background-color-white);
+    font-size: 0.875rem;
+}
+
+.iconsWrapper {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.icon {
+    height: 3em;
+    width: 3em;
+    margin-right: 0.25em;
+}
+
+.description {
+    composes: text;
+    color: var(--skills-main-text);
+    margin: 0;
+}
+
+.link {
+    composes: description;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.imageWrapper {
+    flex: 1 0 30em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.imageWrapper:hover .hover {
+    display: flex;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32rem;
+    height: 16rem;
+    border-radius: 1.25rem;
+}
+
+.hover {
+    composes: image;
+    display: none;
+    position: absolute;
+    background-color: var(--image-transparent);
+    top: 0;
+}
+
+.hoverLink {
+    composes: link;
+    color: var(--background-portfolio);
+    background-color: var(--background-section-light);
+    border-radius: 8.75rem;
+    padding: 1.5em 8em;
+}

@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 14em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 80em;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    margin-bottom: auto;
+}
+
+.avatar img {
+    width: 14em;
+    margin-right: 4em;
+    border-radius: 50%;
+    animation: emergence-avatar 0.7s linear;
+}
+
+.contactPersonal {
+    line-height: 0.7;
+}
+
+.name {
+    font-size: 4rem;
+    font-weight: 200;
+    margin-bottom: 1.125rem;
+    color: var(--background-fonts-color-medium);
+    animation: emergence 0.8s linear;
+}
+
+.surname {
+    font-size: 5.5rem;
+    font-weight: 500;
+    letter-spacing: -0.3rem;
+    color: var(--background-color-bright);
+    animation: emergence 0.9s linear;
+}
+
+.role {
+    margin: 1.5rem 0;
+    line-height: 1.5em;
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: var(--background-fonts-color-medium);
+    animation: emergence 1s linear;
+}
+
+.social {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2em;
+    border-top: 0.1rem solid var(--background-social-light);
+    margin-bottom: 2em;
+    animation: emergence 1.6s linear;
+}
+
+@keyframes emergence-avatar {
+    0% {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes emergence {
+    0% {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+
+    14% {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Nunito';
+  src: url('./fonts/Nunito-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Nunito';
+  src: url('./fonts/Nunito-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./fonts/Nunito-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 1rem;
+  --background-color-white: #fff;
+  --background-color-bright: #f8bb10;
+  --background-color-bright-opacity: rgba(248, 187, 16, 0.8);
+  --background-color-dark-gradient: linear-gradient( 90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100% );
+  --background-section-light: #fbfbfb;
+  --background-section-medium: #f8f8f8;
+  --background-fonts-color-medium: #939393;
+  --background-fonts-color-dark: #727272;
+  --background-social-light: #ededed;
+  --background-social-medium: #c6c6c6;
+  --background-fonts-dark-opacity: rgba(114, 114, 114, 0.9);
+  --background-skills: #22262d;
+  --background-skills-icon: #768093;
+  --skills-progress-title: #676d77;
+  --progressbar-outer-gradient-primary: rgba(50, 55, 65, 0.46);
+  --progressbar-outer-gradient-secondary: #323741;
+  --progressbar-inner-gradient-primary: #ffae63;
+  --progressbar-inner-gradient-secondary: #ff404b;
+  --skills-main-text: #9399a4;
+  --background-portfolio: #1b1f24;
+  --image-transparent: rgba(0, 0, 0, 0.4);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  margin-bottom: 1em;
+  font-size: 4rem;
+  line-height: 4.75rem;
+  font-weight: bold;
+  color: var(--background-color-white);
+}
+
+h3 {
+  color: var(--background-color-white);
+  font-weight: bold;
+  font-size: 2.75rem;
+  line-height: 3.25rem;
+  margin: 0 0 1em 0;
 }

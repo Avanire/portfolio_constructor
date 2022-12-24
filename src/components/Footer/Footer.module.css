@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 28em;
+    background: linear-gradient(90deg, #ff8c4b 0%, #ff404b 100%);
+}
+
+.text {
+    font-size: 3rem;
+    color: var(--background-color-white);
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.link {
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.linkBlock {
+    display: flex;
+    padding: 0.625em 0.875em;
+    border-radius: 0.5625em;
+    background-color: var(--background-portfolio);
+    cursor: pointer;
+}
+
+.contactImg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.75rem;
+}
+
+.contactText {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--background-color-white);
+    line-height: 1.25rem;
+}
+
+.contactWrapper {
+    display: flex;
+}

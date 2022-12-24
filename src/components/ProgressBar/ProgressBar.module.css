@@ -1,0 +1,44 @@
+.skillProgressWrapper {
+    width: 19em;
+    height: 2.125em;
+    padding: 0.5em;
+    margin-bottom: 3em;
+    opacity: 0.8;
+    border-radius: 6.25rem;
+    background: linear-gradient( 180deg, var(--progressbar-outer-gradient-primary) 0%, var(--progressbar-outer-gradient-secondary) 100% );
+}
+
+.progressBar {
+    height: 100%;
+    border-radius: 6.25rem;
+    background: linear-gradient( 90deg, var(--progressbar-inner-gradient-primary) 0%, var(--progressbar-inner-gradient-secondary) 100% );
+}
+
+.progressBar:nth-child(1) {
+    animation: progressbar-css 2.5s ease-out 1;
+    width: 70%;
+}
+
+.progressBar:nth-child(2) {
+    animation: progressbar-css 2.5s ease-out 1;
+    width: 90%;
+}
+
+.progressBar:nth-child(3) {
+    animation: progressbar-css 2.5s ease-out 1;
+    width: 60%;
+}
+
+.progressBar:nth-child(4) {
+    animation: progressbar-css 2.5s ease-out 1;
+    width: 65%;
+}
+
+@keyframes progressbar-css {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

@@ -1,0 +1,43 @@
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    margin-right: .5em;
+    background-color: var(--background-social-light);
+    border: 0.15em solid var(--background-social-light);
+    border-radius: 10%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    animation: emergence-social-first 1.1s linear;
+}
+
+.link {
+    color: var(--background-social-medium);
+    width: 100%;
+    padding: 0.45em;
+    display: flex;
+}
+
+.social:hover > .link {
+    color: var(--background-color-bright);
+    background-color: transparent;
+}
+
+@keyframes emergence-social-first {
+    0% {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+
+    56% {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

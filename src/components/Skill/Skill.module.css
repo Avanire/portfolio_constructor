@@ -1,0 +1,23 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    min-height: 36em;
+    margin: 0 6em 2em 0;
+}
+
+.iconWrapper {
+    display: flex;
+}
+
+.skillProgress {
+    margin-bottom: 0.5em;
+    line-height: 1.25em;
+    color: var(--skills-progress-title);
+}
+
+.content {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: var(--skills-main-text);
+}

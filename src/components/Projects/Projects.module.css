@@ -1,0 +1,15 @@
+.project {
+    display: flex;
+    justify-content: center;
+    padding: 4em 8em;
+    background-color: var(--background-portfolio);
+}
+
+.container {
+    width: 100%;
+    max-width: 80em;
+}
+
+.header {
+    width: 100%;
+}
