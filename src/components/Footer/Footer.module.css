@@ -44,3 +44,15 @@
 .contactWrapper {
     display: flex;
 }
+
+@media screen and (max-width: 575px) {
+    .text {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contactWrapper {
+        flex-direction: column;
+        row-gap: 1em;
+    }
+}

@@ -14,3 +14,9 @@
     line-height: 1.375rem;
     color: var(--skills-main-text);
 }
+
+@media screen and (max-width: 575px) {
+    .about {
+        padding: 2em 2em 1.5em 2em;
+    }
+}

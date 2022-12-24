@@ -27,6 +27,12 @@
     animation: emergence-social-first 2.15s linear;
 }
 
+@media screen and (max-width: 575px) {
+    .contact {
+        text-align: center;
+    }
+}
+
 @keyframes emergence-social-first {
     0% {
         transform: translateY(2rem);

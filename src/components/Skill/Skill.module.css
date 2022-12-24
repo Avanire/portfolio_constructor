@@ -1,9 +1,8 @@
 .skill {
     display: flex;
     flex-direction: column;
-    width: 30em;
-    min-height: 36em;
-    margin: 0 6em 2em 0;
+    flex: 1 1 30em;
+    min-height: 30em;
 }
 
 .iconWrapper {
