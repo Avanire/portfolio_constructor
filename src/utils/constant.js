@@ -3,12 +3,13 @@ import jsIcon from '../images/icons8-javascript.svg';
 import htmlIcon from '../images/icons8-html-5.svg';
 import reactIcon from '../images/icons8-react-native.svg';
 import gitIcon from '../images/icons8-git.svg';
-import project1Image from '../images/admin-panel.png';
-import project2Image from '../images/BB.png';
+import project1Image from '../images/Tenzenis.png';
+import project2Image from '../images/ReactBurger.png';
+import project3Image from '../images/ReactPizza.png';
+import project4Image from '../images/PortfolioConstructor.png';
 import telegramIcon from '../images/icons8-telegram-app.svg';
 import phoneIcon from '../images/icons8-phone.svg';
 import mailIcon from '../images/icons8-mail.svg';
-import React from "react";
 
 export const AVATAR = avatar;
 export const NAME = 'Антон';
@@ -78,20 +79,38 @@ export const SKILLS = [
 export const PROJECT = [
     {
         "id": 1,
-        "name": 'Ecom admin-panel',
-        "description": 'Панель Администратора интернет-магазина, выполненная с помощью React + Redux. В ходе выполнения реализованы все основные потребности для аналогичных проектов: вывод заказа в список, пагинация, сортировка, фильтрация, модальная форма и смена темы. Возможно редактирование заказа, а также групповое изменение и удаление заказов. ',
-        "linkRepository": 'https://github.com/dpolevodin/admin-panel-app',
+        "name": 'Tenzies Game',
+        "description": 'Простая игра в кости, созданная как личный проект в процессе обучения на scrimba.com',
+        "linkRepository": 'https://github.com/Avanire/Tenzies-Game',
         "image": project1Image,
-        "linkProject": 'https://dpolevodin.github.io/admin-panel-deploy/',
+        "linkProject": 'https://avanire.github.io/Tenzies-Game/',
         "techStackIcons": [reactIcon, htmlIcon, gitIcon]
     },
     {
         "id": 2,
-        "name": 'Breaking Bad Wiki',
-        "description": 'Wiki-приложение, выполненное на React по мотивам сериала «Во все тяжкие». Проект написан на классовых и функциональных компонентах. Для получения данных используется открытый API (https://breakingbadapi.com/). ',
-        "linkRepository": 'https://github.com/dpolevodin/breaking_bad_wiki',
+        "name": 'Приложение бургерной',
+        "description": 'Проект бургерной с использованием технологий Redux Toolkit/Effector, Роутингом и разграничением доступа, реализован функционал Drag\'n\'Drop',
+        "linkRepository": 'https://github.com/Avanire/react-burger',
         "image": project2Image,
-        "linkProject": 'https://dpolevodin.github.io/breaking_bad_wiki_deploy/',
+        "linkProject": 'https://avanire.github.io/react-burger/',
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon]
+    },
+    {
+        "id": 3,
+        "name": 'Конструктор портфолио',
+        "description": 'За основу взят дизайн существующего портфолио, переработаны и упакованы в компоненты React. Все настройки контента делаются из 1 файла, приложение способно адаптироваться под новых пользователей и масштабироваться.',
+        "linkRepository": 'https://github.com/Avanire/portfolio_constructor',
+        "image": project4Image,
+        "linkProject": 'https://avanire.github.io/portfolio_constructor/',
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon]
+    },
+    {
+        "id": 4,
+        "name": 'Интернет-магазин',
+        "description": 'Интернет-магазин с корзиной, пагинацией, сортировокой с использованием Redux Toolkit и mockapi в качестве API',
+        "linkRepository": 'https://github.com/Avanire/pizza',
+        "image": project3Image,
+        "linkProject": 'https://avanire.github.io/pizza/',
         "techStackIcons": [reactIcon, htmlIcon, gitIcon]
     }
 ];

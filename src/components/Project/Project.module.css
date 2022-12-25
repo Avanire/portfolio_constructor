@@ -61,6 +61,7 @@
     width: 32rem;
     height: 16rem;
     border-radius: 1.25rem;
+    object-fit: cover;
 }
 
 .hover {
