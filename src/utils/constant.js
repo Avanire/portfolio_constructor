@@ -10,6 +10,7 @@ import project4Image from '../images/PortfolioConstructor.png';
 import telegramIcon from '../images/icons8-telegram-app.svg';
 import phoneIcon from '../images/icons8-phone.svg';
 import mailIcon from '../images/icons8-mail.svg';
+import canada from '../images/CanadaZoo.png';
 
 export const AVATAR = avatar;
 export const NAME = 'Антон';
@@ -79,6 +80,28 @@ export const SKILLS = [
 export const PROJECT = [
     {
         "id": 1,
+        "name": 'Проектная работа Yandex Practicum - Stellar Burgers',
+        "description": 'Разработка велась в команде, на каждом этапе анализ кода ревьюером. Приложение с использованием технологий: React, Redux Toolkit, React Router, React-DnD, WebSocket, CSS Modules. Для тестирования использованы Jest и Cypress.\n' +
+            'Бургер собирается с помощью перетаскивания ингредиентов в конструктор. Внутри конструктора можно перемещать ингредиенты с помощью Drag\'n\'Drop.\n' +
+            'Реализован функционал регистрации, аутентификации/авторизации с помощью jwt token.\n' +
+            'В личном кабинете подгружаются заказы авторизованного пользователя, на странице Лента заказов все заказы. Это осуществляется с помощью технологии WebSocket.',
+        "linkRepository": 'https://github.com/Avanire/react-burger',
+        "image": project2Image,
+        "linkProject": 'https://avanire.github.io/react-burger/',
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon]
+    },
+    {
+        "id": 2,
+        "name": 'Pet project - Интернет-зоомагазин',
+        "description": 'Разрабатываю интернет-зоомагазин на стеке: React/InertiaJs/Laravel. Приложение пишется на TypeScript. На момент написания готов дизайн главной, каталога, товаров и корзины. Реализован функционал добавления в корзину и роутинг по приложению. Приложение делается мной с 0, как backend так и frontend.' +
+            'В планах реализовать полноценный интернет-магазин с обширным функционалом. On-line оплатой, подпиской на новости, синхронизацией с соц. сетями и синхронизацией остатков на складе.',
+        "linkRepository": 'https://github.com/Avanire/online-shop',
+        "image": canada,
+        "linkProject": 'https://canadazoo.ru/',
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon]
+    },
+    {
+        "id": 3,
         "name": 'Tenzies Game',
         "description": 'Простая игра в кости, созданная как личный проект в процессе обучения на scrimba.com',
         "linkRepository": 'https://github.com/Avanire/Tenzies-Game',
@@ -87,16 +110,7 @@ export const PROJECT = [
         "techStackIcons": [reactIcon, htmlIcon, gitIcon]
     },
     {
-        "id": 2,
-        "name": 'Приложение бургерной',
-        "description": 'Проект бургерной с использованием технологий Redux Toolkit/Effector, Роутингом и разграничением доступа, реализован функционал Drag\'n\'Drop',
-        "linkRepository": 'https://github.com/Avanire/react-burger',
-        "image": project2Image,
-        "linkProject": 'https://avanire.github.io/react-burger/',
-        "techStackIcons": [reactIcon, htmlIcon, gitIcon]
-    },
-    {
-        "id": 3,
+        "id": 4,
         "name": 'Конструктор портфолио',
         "description": 'За основу взят дизайн существующего портфолио, переработаны и упакованы в компоненты React. Все настройки контента делаются из 1 файла, приложение способно адаптироваться под новых пользователей и масштабироваться.',
         "linkRepository": 'https://github.com/Avanire/portfolio_constructor',
@@ -105,7 +119,7 @@ export const PROJECT = [
         "techStackIcons": [reactIcon, htmlIcon, gitIcon]
     },
     {
-        "id": 4,
+        "id": 5,
         "name": 'Интернет-магазин',
         "description": 'Интернет-магазин с корзиной, пагинацией, сортировокой с использованием Redux Toolkit и mockapi в качестве API',
         "linkRepository": 'https://github.com/Avanire/pizza',
@@ -137,6 +151,9 @@ export const CONTACTS_FOOTER = [
 ];
 
 export const ABOUT_TEXT = [
+    `В веб-разработке мне больше всего нравиться создавать красивые и функциональные интерфейсы. Когда из ничего получается красивое приложение - это вызывает у меня чувство удовлетворенности и желание двигаться дальше.`,
+    `Чтобы быть в 'струе' я читаю как базовые книги (из последних "CSS для профи", "javascript для профессиональных веб-разработчиков"), так и учусь на курсах (Yandex Practicum - React разработчик). Закрепляю знания полученные знания на работе и в домашнем проекте.`,
+    `Своей сильной стороной я считаю, способность не опускать руки перед сложностями. Т.к. я в большей степени самоучка, то решение зачастую приходилось искать самому и решения над поставленными задачами я всегда находил. Второе, широкий кругозор в IT, т.к. я сменил работу интернет-маркетолога/SEO-специалиста на программиста, я знаю как нужно делать приложение или сайт, чтобы оно было дружелюбным к поисковым системам.`,
     `В IT сферу пришел в 2015 году в роли SEO специалиста, где начал постепенно знакомится со сферой разработки и программирования. Когда стал руководителем отдела SEO, начал понимать, что сфера разработки меня привлекает больше, чем маркетинга.`,
     `Для первого знакомства с разработкой выбрал язык Java, курсы в JavaRush, бесплатное обучение в местной компании и платные курсы. Я разобрался с методологией ООП и основами языка, что позволило быстрее осваивать другие языки программирования. В итоге я стал разработчиком в компании, где работал, на стеке PHP/JS. В работу входило создание новых сайтов на популярных CMS и поддержка клиентских сайтов.`,
     `В процессе я стал изучать фреймворк Laravel и переключился на внутренний проект "Личный кабинет для клиентов", где осуществлял всю разработку и front и backend. Используемый стек Laravel/Jquery.`,
