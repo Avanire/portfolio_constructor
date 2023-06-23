@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio_constructor/static/css/main.9d670605.css",
-    "main.js": "/portfolio_constructor/static/js/main.8e97f64a.js",
+    "main.js": "/portfolio_constructor/static/js/main.df36e196.js",
     "static/js/787.8f6cf320.chunk.js": "/portfolio_constructor/static/js/787.8f6cf320.chunk.js",
     "static/media/CanadaZoo.png": "/portfolio_constructor/static/media/CanadaZoo.c7ececcbc490a502988b.png",
     "static/media/ReactPizza.png": "/portfolio_constructor/static/media/ReactPizza.b3643b2d4c8599602671.png",
+    "static/media/itb-lk.png": "/portfolio_constructor/static/media/itb-lk.61ab7a5044a8705a9fc6.png",
     "static/media/ReactBurger.png": "/portfolio_constructor/static/media/ReactBurger.2e7cf799924b519a474e.png",
     "static/media/avatar.jpg": "/portfolio_constructor/static/media/avatar.37efcd81d12d8348d64a.jpg",
     "static/media/PortfolioConstructor.png": "/portfolio_constructor/static/media/PortfolioConstructor.00544f1cfe11095e905e.png",
@@ -23,11 +24,11 @@
     "index.html": "/portfolio_constructor/index.html",
     "static/media/envelope-regular.svg": "/portfolio_constructor/static/media/envelope-regular.93e70155ef4a52027277ea9ca2458ffe.svg",
     "main.9d670605.css.map": "/portfolio_constructor/static/css/main.9d670605.css.map",
-    "main.8e97f64a.js.map": "/portfolio_constructor/static/js/main.8e97f64a.js.map",
+    "main.df36e196.js.map": "/portfolio_constructor/static/js/main.df36e196.js.map",
     "787.8f6cf320.chunk.js.map": "/portfolio_constructor/static/js/787.8f6cf320.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d670605.css",
-    "static/js/main.8e97f64a.js"
+    "static/js/main.df36e196.js"
   ]
 }
