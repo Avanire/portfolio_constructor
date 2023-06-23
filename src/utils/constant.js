@@ -7,6 +7,7 @@ import project1Image from '../images/Tenzenis.png';
 import project2Image from '../images/ReactBurger.png';
 import project3Image from '../images/ReactPizza.png';
 import project4Image from '../images/PortfolioConstructor.png';
+import project5Image from '../images/itb-lk.png';
 import telegramIcon from '../images/icons8-telegram-app.svg';
 import phoneIcon from '../images/icons8-phone.svg';
 import mailIcon from '../images/icons8-mail.svg';
@@ -80,6 +81,17 @@ export const SKILLS = [
 export const PROJECT = [
     {
         "id": 1,
+        "name": 'Разработка личного кабинета для компании ITB',
+        "description": 'Настройка получения данных из API Яндекс Метрика и Яндекс Директа. Визуализация полученных данных с помощью API Hightchart. ' +
+            'Получение статистики о позициях сайта из внутренней CRM компании, обработка и построение таблицы и графика. ' +
+            'Реализация списка задач проекта в стиле канбан доски. ' +
+            'Реализация подписки на рассылку статистических данных на телефон/email/telegram',
+        "image": project5Image,
+        "linkProject": 'https://lk.itb-company.com/demo',
+        "techStackIcons": [htmlIcon, gitIcon]
+    },
+    {
+        "id": 2,
         "name": 'Проектная работа Yandex Practicum - Stellar Burgers',
         "description": 'Разработка велась в команде, на каждом этапе анализ кода ревьюером. Приложение с использованием технологий: React, Redux Toolkit, React Router, React-DnD, WebSocket, CSS Modules. Для тестирования использованы Jest и Cypress.\n' +
             'Бургер собирается с помощью перетаскивания ингредиентов в конструктор. Внутри конструктора можно перемещать ингредиенты с помощью Drag\'n\'Drop.\n' +
@@ -91,7 +103,7 @@ export const PROJECT = [
         "techStackIcons": [reactIcon, htmlIcon, gitIcon]
     },
     {
-        "id": 2,
+        "id": 3,
         "name": 'Pet project - Интернет-зоомагазин',
         "description": 'Разрабатываю интернет-зоомагазин на стеке: React/InertiaJs/Laravel. Приложение пишется на TypeScript. На момент написания готов дизайн главной, каталога, товаров и корзины. Реализован функционал добавления в корзину и роутинг по приложению. Приложение делается мной с 0, как backend так и frontend.' +
             'В планах реализовать полноценный интернет-магазин с обширным функционалом. On-line оплатой, подпиской на новости, синхронизацией с соц. сетями и синхронизацией остатков на складе.',
@@ -101,7 +113,7 @@ export const PROJECT = [
         "techStackIcons": [reactIcon, htmlIcon, gitIcon]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": 'Tenzies Game',
         "description": 'Простая игра в кости, созданная как личный проект в процессе обучения на scrimba.com',
         "linkRepository": 'https://github.com/Avanire/Tenzies-Game',
@@ -110,7 +122,7 @@ export const PROJECT = [
         "techStackIcons": [reactIcon, htmlIcon, gitIcon]
     },
     {
-        "id": 4,
+        "id": 5,
         "name": 'Конструктор портфолио',
         "description": 'За основу взят дизайн существующего портфолио, переработаны и упакованы в компоненты React. Все настройки контента делаются из 1 файла, приложение способно адаптироваться под новых пользователей и масштабироваться.',
         "linkRepository": 'https://github.com/Avanire/portfolio_constructor',
@@ -119,7 +131,7 @@ export const PROJECT = [
         "techStackIcons": [reactIcon, htmlIcon, gitIcon]
     },
     {
-        "id": 5,
+        "id": 6,
         "name": 'Интернет-магазин',
         "description": 'Интернет-магазин с корзиной, пагинацией, сортировокой с использованием Redux Toolkit и mockapi в качестве API',
         "linkRepository": 'https://github.com/Avanire/pizza',
