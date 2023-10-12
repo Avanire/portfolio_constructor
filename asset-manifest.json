@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_constructor/static/css/main.9d670605.css",
-    "main.js": "/portfolio_constructor/static/js/main.a6286c24.js",
+    "main.js": "/portfolio_constructor/static/js/main.5a86caaf.js",
     "static/js/787.8f6cf320.chunk.js": "/portfolio_constructor/static/js/787.8f6cf320.chunk.js",
     "static/media/bomber-game.png": "/portfolio_constructor/static/media/bomber-game.96900cac92313c9576a2.png",
     "static/media/messanger.png": "/portfolio_constructor/static/media/messanger.8449695ab4aab7a6da73.png",
@@ -15,28 +15,28 @@
     "static/media/Nunito-Regular.woff": "/portfolio_constructor/static/media/Nunito-Regular.32d98bf516a0bb793c6a.woff",
     "static/media/Nunito-Bold.woff": "/portfolio_constructor/static/media/Nunito-Bold.be318c3584968249cc15.woff",
     "static/media/Tenzenis.png": "/portfolio_constructor/static/media/Tenzenis.e0522024d8dba31a920c.png",
-    "static/media/node-js-svgrepo-com.svg": "/portfolio_constructor/static/media/node-js-svgrepo-com.ecc8e4cc28644f6c3ecd69df002e3a06.svg",
+    "static/media/node-js-svgrepo-com.svg": "/portfolio_constructor/static/media/node-js-svgrepo-com.57e94a8b99d5eae59751f5af6cb51a19.svg",
     "static/media/icons8-react-native.svg": "/portfolio_constructor/static/media/icons8-react-native.867e22e5a0394f9e99bb018feec45d06.svg",
     "static/media/icons8-phone.svg": "/portfolio_constructor/static/media/icons8-phone.680b1c73b06eb1169bad07112530332d.svg",
     "static/media/icons8-html-5.svg": "/portfolio_constructor/static/media/icons8-html-5.cdf588f58e6818c640e30bf8069c28c0.svg",
     "static/media/icons8-telegram-app.svg": "/portfolio_constructor/static/media/icons8-telegram-app.bcb76c74ba19e63b4ec033f25cf2f3c4.svg",
-    "static/media/jest-svgrepo-com.svg": "/portfolio_constructor/static/media/jest-svgrepo-com.dfc2edab6943a64c42456ac5bd97c256.svg",
-    "static/media/redux-svgrepo-com.svg": "/portfolio_constructor/static/media/redux-svgrepo-com.83841688293671971163e0a09d185c3b.svg",
-    "static/media/docker-svgrepo-com.svg": "/portfolio_constructor/static/media/docker-svgrepo-com.1ac6e8435b553d193e611577ae629ff5.svg",
-    "static/media/vite-svgrepo-com.svg": "/portfolio_constructor/static/media/vite-svgrepo-com.d1c5d2d61a27cb95fc9bb893e49323c5.svg",
+    "static/media/redux-svgrepo-com.svg": "/portfolio_constructor/static/media/redux-svgrepo-com.1c881305e755122b6b8c3573b3d36c14.svg",
+    "static/media/jest-svgrepo-com.svg": "/portfolio_constructor/static/media/jest-svgrepo-com.0ea1edcce3b5fafaad047b52341e6834.svg",
+    "static/media/docker-svgrepo-com.svg": "/portfolio_constructor/static/media/docker-svgrepo-com.986c99efe9c5c0bb317237a8a376c097.svg",
+    "static/media/vite-svgrepo-com.svg": "/portfolio_constructor/static/media/vite-svgrepo-com.9e8e0dbb083ede18457d7cd6f6b97f71.svg",
     "static/media/icons8-javascript.svg": "/portfolio_constructor/static/media/icons8-javascript.78960278f6971b4f0ff5c5c99776bf95.svg",
     "static/media/github.svg": "/portfolio_constructor/static/media/github.f4f316804f6c468799b01fab35bd3220.svg",
     "static/media/icons8-git.svg": "/portfolio_constructor/static/media/icons8-git.7433eed87b726fa0ca4a6beeb41e12f4.svg",
     "static/media/icons8-mail.svg": "/portfolio_constructor/static/media/icons8-mail.f83bb82f632f567cc70fc5dbfc82473d.svg",
-    "static/media/typescript-logo-svgrepo-com.svg": "/portfolio_constructor/static/media/typescript-logo-svgrepo-com.ae37b83486d3b554e895cae1fb094187.svg",
+    "static/media/typescript-logo-svgrepo-com.svg": "/portfolio_constructor/static/media/typescript-logo-svgrepo-com.7ac1e431204b02ebf1acb77265e8a2fa.svg",
     "index.html": "/portfolio_constructor/index.html",
     "static/media/envelope-regular.svg": "/portfolio_constructor/static/media/envelope-regular.93e70155ef4a52027277ea9ca2458ffe.svg",
     "main.9d670605.css.map": "/portfolio_constructor/static/css/main.9d670605.css.map",
-    "main.a6286c24.js.map": "/portfolio_constructor/static/js/main.a6286c24.js.map",
+    "main.5a86caaf.js.map": "/portfolio_constructor/static/js/main.5a86caaf.js.map",
     "787.8f6cf320.chunk.js.map": "/portfolio_constructor/static/js/787.8f6cf320.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d670605.css",
-    "static/js/main.a6286c24.js"
+    "static/js/main.5a86caaf.js"
   ]
 }
