@@ -1,11 +1,24 @@
-import React from "react";
+import React, {useCallback, useState} from "react";
 import styles from './Footer.module.css';
 import {CONTACTS_FOOTER} from "../../utils/constant";
 import PropTypes from "prop-types";
 
 const Contact = ({icon, text, link}) => {
+    const [isHiddenText, setIsHiddenText] = useState(true)
+
+    const handleShowContact = useCallback(() => {
+        setIsHiddenText(() => false)
+    }, [])
+
     return (
-        <a href={link} target="_blank" className={styles.link} rel="noreferrer" >
+        isHiddenText
+            ? <span className={styles.link} rel="noreferrer" onClick={handleShowContact}>
+                <div className={styles.linkBlock}>
+                    <img src={icon} alt="" className={styles.contactImg}/>
+                    <span className={styles.contactText}>{`${text.substring(0, text.length / 2)}...`}</span>
+                </div>
+            </span>
+            : <a href={link} target="_blank" className={styles.link} rel="noreferrer" >
             <div className={styles.linkBlock}>
                 <img src={icon} alt="" className={styles.contactImg}/>
                 <span className={styles.contactText}>{text}</span>

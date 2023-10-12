@@ -3,6 +3,12 @@ import jsIcon from '../images/icons8-javascript.svg';
 import htmlIcon from '../images/icons8-html-5.svg';
 import reactIcon from '../images/icons8-react-native.svg';
 import gitIcon from '../images/icons8-git.svg';
+import tsIcon from '../images/typescript-logo-svgrepo-com.svg';
+import dockerIcon from '../images/docker-svgrepo-com.svg';
+import reduxIcon from '../images/redux-svgrepo-com.svg';
+import viteIcon from '../images/vite-svgrepo-com.svg';
+import nodeIcon from '../images/node-js-svgrepo-com.svg';
+import jestICon from '../images/jest-svgrepo-com.svg';
 import project1Image from '../images/Tenzenis.png';
 import project2Image from '../images/ReactBurger.png';
 import project3Image from '../images/ReactPizza.png';
@@ -12,6 +18,8 @@ import telegramIcon from '../images/icons8-telegram-app.svg';
 import phoneIcon from '../images/icons8-phone.svg';
 import mailIcon from '../images/icons8-mail.svg';
 import canada from '../images/CanadaZoo.png';
+import project6Image from '../images/messanger.png'
+import project7Image from '../images/bomber-game.png'
 
 export const AVATAR = avatar;
 export const NAME = 'Антон';
@@ -80,7 +88,26 @@ export const SKILLS = [
 
 export const PROJECT = [
     {
-        "id": 1,
+        "id": 8,
+        "name": 'Bomberman - командный проект',
+        "description": 'Проект аналог игры бомберман с Dendi, реализованый на языке JS/TS',
+        "linkRepository": 'https://github.com/tsharon-byte/28_mf_teamwork_01',
+        "image": project7Image,
+        "linkProject": 'https://28-mf-teamwork-01-client.vercel.app/',
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon, jsIcon, tsIcon, dockerIcon, reduxIcon, viteIcon, nodeIcon, jestICon]
+    },
+    {
+        "id": 7,
+        "name": 'Мессенджер - учебный проект для Яндекс.Практикум',
+        "description": 'Проект аналог мессенджера WhatsApp, Telegram написанный на JS (TypeScript). ' +
+            'Стек технологий в проекте: JavaScript (TypeScript), PostCss, WebPack, Handlebars, Mocha/Chai',
+        "linkRepository": 'https://github.com/Avanire/middle.messenger.praktikum.yandex',
+        "image": project6Image,
+        "linkProject": 'https://main--lucent-syrniki-f79600.netlify.app/',
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon, jsIcon, tsIcon, dockerIcon, jestICon]
+    },
+    {
+        "id": 6,
         "name": 'Разработка личного кабинета для компании ITB',
         "description": 'Настройка получения данных из API Яндекс Метрика и Яндекс Директа. Визуализация полученных данных с помощью API Hightchart. ' +
             'Получение статистики о позициях сайта из внутренней CRM компании, обработка и построение таблицы и графика. ' +
@@ -88,10 +115,10 @@ export const PROJECT = [
             'Реализация подписки на рассылку статистических данных на телефон/email/telegram',
         "image": project5Image,
         "linkProject": 'https://lk.itb-company.com/demo',
-        "techStackIcons": [htmlIcon, gitIcon]
+        "techStackIcons": [htmlIcon, gitIcon, jsIcon]
     },
     {
-        "id": 2,
+        "id": 5,
         "name": 'Проектная работа Yandex Practicum - Stellar Burgers',
         "description": 'Разработка велась в команде, на каждом этапе анализ кода ревьюером. Приложение с использованием технологий: React, Redux Toolkit, React Router, React-DnD, WebSocket, CSS Modules. Для тестирования использованы Jest и Cypress.\n' +
             'Бургер собирается с помощью перетаскивания ингредиентов в конструктор. Внутри конструктора можно перемещать ингредиенты с помощью Drag\'n\'Drop.\n' +
@@ -100,44 +127,44 @@ export const PROJECT = [
         "linkRepository": 'https://github.com/Avanire/react-burger',
         "image": project2Image,
         "linkProject": 'https://avanire.github.io/react-burger/',
-        "techStackIcons": [reactIcon, htmlIcon, gitIcon]
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon, jsIcon, tsIcon, reduxIcon, jestICon]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": 'Pet project - Интернет-зоомагазин',
         "description": 'Разрабатываю интернет-зоомагазин на стеке: React/InertiaJs/Laravel. Приложение пишется на TypeScript. На момент написания готов дизайн главной, каталога, товаров и корзины. Реализован функционал добавления в корзину и роутинг по приложению. Приложение делается мной с 0, как backend так и frontend.' +
             'В планах реализовать полноценный интернет-магазин с обширным функционалом. On-line оплатой, подпиской на новости, синхронизацией с соц. сетями и синхронизацией остатков на складе.',
         "linkRepository": 'https://github.com/Avanire/online-shop',
         "image": canada,
         "linkProject": 'https://canadazoo.ru/',
-        "techStackIcons": [reactIcon, htmlIcon, gitIcon]
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon, jsIcon, tsIcon, reduxIcon, jestICon]
     },
     {
-        "id": 4,
+        "id": 3,
         "name": 'Tenzies Game',
         "description": 'Простая игра в кости, созданная как личный проект в процессе обучения на scrimba.com',
         "linkRepository": 'https://github.com/Avanire/Tenzies-Game',
         "image": project1Image,
         "linkProject": 'https://avanire.github.io/Tenzies-Game/',
-        "techStackIcons": [reactIcon, htmlIcon, gitIcon]
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon, jsIcon]
     },
     {
-        "id": 5,
+        "id": 2,
         "name": 'Конструктор портфолио',
         "description": 'За основу взят дизайн существующего портфолио, переработаны и упакованы в компоненты React. Все настройки контента делаются из 1 файла, приложение способно адаптироваться под новых пользователей и масштабироваться.',
         "linkRepository": 'https://github.com/Avanire/portfolio_constructor',
         "image": project4Image,
         "linkProject": 'https://avanire.github.io/portfolio_constructor/',
-        "techStackIcons": [reactIcon, htmlIcon, gitIcon]
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon, jsIcon]
     },
     {
-        "id": 6,
+        "id": 1,
         "name": 'Интернет-магазин',
         "description": 'Интернет-магазин с корзиной, пагинацией, сортировокой с использованием Redux Toolkit и mockapi в качестве API',
         "linkRepository": 'https://github.com/Avanire/pizza',
         "image": project3Image,
         "linkProject": 'https://avanire.github.io/pizza/',
-        "techStackIcons": [reactIcon, htmlIcon, gitIcon]
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon, jsIcon]
     }
 ];
 
@@ -172,3 +199,12 @@ export const ABOUT_TEXT = [
     `В период разработки интерфейса для Личного кабинета, я стал понимать, насколько отстает Jquery от современных библиотек и фреймворков. Начал изучать возможности современного стека frontend'а и выбрал для себя библиотеку React. Начал изучение с бесплатных курсов на Youtube и подкрепил все 3-х месячным курсом Яндекс Практикума, где разобрался с нюансами, заполнил пробелы и изучил более подробно Redux Toolkit/Effector/Routing/WebSocket и язык TypeScript.`,
     `При создании проектной работы, понял, что создавать удобный и отзывчивый интерфейс мне нравится больше, чем делать backend, поэтому я выбрал как основную специализацию Frontend на библиотеке React.`
 ];
+
+export const COURSES = [
+    {
+        id: 1,
+        name: 'Курс React-разработчик',
+        company: 'Яндекс Практикум',
+        image: []
+    }
+]
