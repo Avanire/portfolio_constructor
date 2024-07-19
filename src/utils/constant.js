@@ -9,6 +9,7 @@ import reduxIcon from '../images/redux-svgrepo-com.svg';
 import viteIcon from '../images/vite-svgrepo-com.svg';
 import nodeIcon from '../images/node-js-svgrepo-com.svg';
 import jestICon from '../images/jest-svgrepo-com.svg';
+import nextjsIcon from '../images/nextjs-icon.svg';
 import project1Image from '../images/Tenzenis.png';
 import project2Image from '../images/ReactBurger.png';
 import project3Image from '../images/ReactPizza.png';
@@ -21,6 +22,7 @@ import canada from '../images/CanadaZoo.png';
 import project6Image from '../images/messanger.png'
 import project7Image from '../images/bomber-game.png'
 import project8Image from '../images/t1-intensive.png'
+import project9Image from '../images/lumenavat.png'
 
 export const AVATAR = avatar;
 export const NAME = 'Антон';
@@ -88,6 +90,15 @@ export const SKILLS = [
 ];
 
 export const PROJECT = [
+    {
+        "id": 10,
+        "name": 'Интернет-магазин светотехники',
+        "description": 'Интернет-магазин на NextJs с SSR и SSG для успешного SEO продвижения страниц сайта. С SEO фильтром для страниц категорий.',
+        "linkRepository": '',
+        "image": project9Image,
+        "linkProject": 'https://city-next-gilt.vercel.app/',
+        "techStackIcons": [reactIcon, htmlIcon, gitIcon, jsIcon, tsIcon, reduxIcon, nextjsIcon]
+    },
     {
         "id": 9,
         "name": 'Проект для интенсива T1',
