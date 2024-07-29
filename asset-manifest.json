@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio_constructor/static/css/main.29eee00f.css",
-    "main.js": "/portfolio_constructor/static/js/main.40dc1ac0.js",
+    "main.css": "/portfolio_constructor/static/css/main.f17c2e06.css",
+    "main.js": "/portfolio_constructor/static/js/main.50278a5c.js",
     "static/js/453.002f8256.chunk.js": "/portfolio_constructor/static/js/453.002f8256.chunk.js",
     "static/media/bomber-game.png": "/portfolio_constructor/static/media/bomber-game.96900cac92313c9576a2.png",
     "static/media/messanger.png": "/portfolio_constructor/static/media/messanger.8449695ab4aab7a6da73.png",
     "static/media/t1-intensive.png": "/portfolio_constructor/static/media/t1-intensive.43366220d12021d433cb.png",
     "static/media/CanadaZoo.png": "/portfolio_constructor/static/media/CanadaZoo.c7ececcbc490a502988b.png",
-    "static/media/ReactPizza.png": "/portfolio_constructor/static/media/ReactPizza.b3643b2d4c8599602671.png",
     "static/media/lumenavat.png": "/portfolio_constructor/static/media/lumenavat.4e42637c00215ffb6346.png",
     "static/media/itb-lk.png": "/portfolio_constructor/static/media/itb-lk.34ff1fd7cb4c3c11c7b7.png",
     "static/media/ReactBurger.png": "/portfolio_constructor/static/media/ReactBurger.2e7cf799924b519a474e.png",
@@ -32,14 +31,14 @@
     "static/media/icons8-mail.svg": "/portfolio_constructor/static/media/icons8-mail.f83bb82f632f567cc70fc5dbfc82473d.svg",
     "static/media/typescript-logo-svgrepo-com.svg": "/portfolio_constructor/static/media/typescript-logo-svgrepo-com.6c7dc9d2e723b0629722017a306f1bf9.svg",
     "index.html": "/portfolio_constructor/index.html",
-    "static/media/nextjs-icon.svg": "/portfolio_constructor/static/media/nextjs-icon.bb417ed7ca7765b3ac0951ac1d73448c.svg",
+    "static/media/nextjs-icon.svg": "/portfolio_constructor/static/media/nextjs-icon.18bbef1fbb7fb3f50603a26db60b07d9.svg",
     "static/media/envelope-regular.svg": "/portfolio_constructor/static/media/envelope-regular.93e70155ef4a52027277ea9ca2458ffe.svg",
-    "main.29eee00f.css.map": "/portfolio_constructor/static/css/main.29eee00f.css.map",
-    "main.40dc1ac0.js.map": "/portfolio_constructor/static/js/main.40dc1ac0.js.map",
+    "main.f17c2e06.css.map": "/portfolio_constructor/static/css/main.f17c2e06.css.map",
+    "main.50278a5c.js.map": "/portfolio_constructor/static/js/main.50278a5c.js.map",
     "453.002f8256.chunk.js.map": "/portfolio_constructor/static/js/453.002f8256.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29eee00f.css",
-    "static/js/main.40dc1ac0.js"
+    "static/css/main.f17c2e06.css",
+    "static/js/main.50278a5c.js"
   ]
 }
