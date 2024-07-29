@@ -12,7 +12,6 @@ import jestICon from '../images/jest-svgrepo-com.svg';
 import nextjsIcon from '../images/nextjs-icon.svg';
 import project1Image from '../images/Tenzenis.png';
 import project2Image from '../images/ReactBurger.png';
-import project3Image from '../images/ReactPizza.png';
 import project4Image from '../images/PortfolioConstructor.png';
 import project5Image from '../images/itb-lk.png';
 import telegramIcon from '../images/icons8-telegram-app.svg';
