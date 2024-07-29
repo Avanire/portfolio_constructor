@@ -177,15 +177,6 @@ export const PROJECT = [
         "image": project4Image,
         "linkProject": 'https://avanire.github.io/portfolio_constructor/',
         "techStackIcons": [reactIcon, htmlIcon, gitIcon, jsIcon]
-    },
-    {
-        "id": 1,
-        "name": 'Интернет-магазин',
-        "description": 'Интернет-магазин с корзиной, пагинацией, сортировокой с использованием Redux Toolkit и mockapi в качестве API',
-        "linkRepository": 'https://github.com/Avanire/pizza',
-        "image": project3Image,
-        "linkProject": 'https://avanire.github.io/pizza/',
-        "techStackIcons": [reactIcon, htmlIcon, gitIcon, jsIcon]
     }
 ];
 
